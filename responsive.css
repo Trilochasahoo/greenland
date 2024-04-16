@@ -1,0 +1,46 @@
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+
+@media only screen and (max-width: 961px){
+    .navbar li{
+        
+        flex-direction:column;
+    }
+
+    .navbar{
+        height: 400px;
+        transition: all 0.3s ease-out ;
+        flex-direction:column;
+    }
+    .burger{
+        display: block;
+
+    }
+    .search input{
+        margin-left: auto;
+        align-items: center;
+        
+    }
+    
+    .h-nav-resp{
+
+        padding: 45px;
+        height: 22px;
+    }
+    .v-clss-resp{
+        opacity: 0;
+    }
+}
